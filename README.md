@@ -55,6 +55,7 @@ would become:
 [57,0,7,14]
 
 or as QR Code:
+
 ![Nutritional Value JSON in QR Form smaller](https://github.com/TetsuGuy/nuco/blob/master/QRCode2.PNG)
 
 
