@@ -91,10 +91,6 @@ Add/Total: continous scanning to get a total calorie count at the end
 
 #### What about Apples?
 
-There are (thankfully) many unprocessed products, like fruit and vegetables. I doubt it would be a good solution to put another NuCo sticker on each of them.
-
-Maybe a simple database of those foods could be integrated into products like calorie counter apps or the mentioned NuCo Scale. Or if you are shopping, the supermarket can
-
-Put a NuCo above the apple crate to scan or take a pic of.
+There are (thankfully) many unprocessed products, like fruit and vegetables. I doubt it would be a good solution to put another NuCo sticker on each of them. Maybe a simple database of those foods could be integrated into products like calorie counter apps or the mentioned NuCo Scale. Or if you are shopping, the supermarket can put a NuCo above the apple crate to scan or take a pic of.
 
 
