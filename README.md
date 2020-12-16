@@ -1,11 +1,11 @@
 # NuCo = Nutritional Code
 Why search for a special product if you only need the calories or ingredients ? Just scan a QR-code!
 
-Proposal:
+#### Proposal:
 
 For processed foods, instead of searching for a specific product (e.g.yogurt of a certain brand), we just want to encode the nutritional information in both a human readable code and a machine readable code.
 
-Example:
+#### Example:
 
 
 Chobani Vanilla Blended Non-Fat Greek Yogurt (32 oz)
@@ -33,13 +33,13 @@ People can then just weigh the amount of food they want to consume from this pro
 The QR-Code/Reader is easy to include in fitness/health/diet-apps and people would only need to search for unprocessed foods without
 nutritional labe (e.g. "Potato", "Apple").
 
-Side Note:
+#### Side Note:
 
 When i came up with this idea, originally i thought of Google's way to encode a specific Point in Google Maps to like 3 words of human readable language.
 For example, the point of White House, Washington would be: 38°53'51.7"N 77°02'11.5"W encoded into "dog banana three". 
 Similar to this approach: https://tools.ietf.org/html/rfc1751 for remembering passwords.
 
-Room for improvement:
+#### Room for improvement:
 
 The JSON Object Notation is not necessarily the best option. Just as well there could be just the array of numbers, as long as we are able to infer what kind of nutritional key the number is assigned to.
 
@@ -67,3 +67,21 @@ Index | Nutritional Value
 3 | protein
 4-99 | ?
 
+
+#### NuCo-Scale
+
+I want to make a Scale with a small glass window in the middle to scan NuCos. After the scan, i could either just weigh the amount of product or chose a measuring method.
+I could think about 3 workflows:
+
+1.) Auto / by weight
+The calories are displayed for the amount of product you are currently weighing
+
+2.) Total / by unit
+The calories are displayed for the whole package. (Imagine a cup of yoghurt with fruit from a brand)
+Many products come with info about portion calorie count but since we are lazy we just scan it and it gets displayed.
+
+3.) Add + a combination of 1.) or 2.)
+Add/Auto: continious scanning and weighing of products to get a total calorie count at the end
+Add/Total: continous scanning to get a total calorie count at the end
+
+What about Apples?
