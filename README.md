@@ -79,9 +79,7 @@ The calories are displayed for the amount of product you are currently weighing
 
 #### 2.) Total / by unit
 
-The calories are displayed for the whole package. (Imagine a cup of yoghurt with fruit from a brand).
-
-Many products come with info about portion calorie count but since we are lazy we just scan it and it gets displayed.
+The calories are displayed for the whole package. (Imagine a cup of yoghurt with fruit from a brand). Many products come with info about portion calorie count but since we are lazy we just scan it and it gets displayed.
 
 #### 3.) Add + a combination of 1.) or 2.)
 
@@ -93,4 +91,6 @@ Add/Total: continous scanning to get a total calorie count at the end
 
 There are (thankfully) many unprocessed products, like fruit and vegetables. I doubt it would be a good solution to put another NuCo sticker on each of them. Maybe a simple database of those foods could be integrated into products like calorie counter apps or the mentioned NuCo Scale. Or if you are shopping, the supermarket can put a NuCo above the apple crate to scan or take a pic of.
 
+#### Why not use other technology like image-recognition?
 
+The reason i stuck to QR-Codes is that they are in this case self-contained pieces of information. That means everything i need is the QR-Code and a small decoder that creates a nutritional chart from it. Image Recognition is constantly evolving and there would probably be a need to transfer the image to a server for analysis. I want the whole system to work offline. Then there are NFC tags which work, but im sure that printing on a surface is easier and more environmentally friendly than producing a plastic chip to glue somewhere.
