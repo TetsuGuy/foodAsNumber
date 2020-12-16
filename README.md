@@ -73,18 +73,20 @@ Index | Nutritional Value
 I want to make a Scale with a small glass window in the middle to scan NuCos. After the scan, i could either just weigh the amount of product or chose a measuring method.
 I could think about 3 workflows:
 
-1.) Auto / by weight
+##### 1.) Auto / by weight
 
 The calories are displayed for the amount of product you are currently weighing
 
-2.) Total / by unit
+##### 2.) Total / by unit
 
-The calories are displayed for the whole package. (Imagine a cup of yoghurt with fruit from a brand)
+The calories are displayed for the whole package. (Imagine a cup of yoghurt with fruit from a brand).
+
 Many products come with info about portion calorie count but since we are lazy we just scan it and it gets displayed.
 
-3.) Add + a combination of 1.) or 2.)
+##### 3.) Add + a combination of 1.) or 2.)
 
 Add/Auto: continious scanning and weighing of products to get a total calorie count at the end
+
 Add/Total: continous scanning to get a total calorie count at the end
 
 What about Apples?
