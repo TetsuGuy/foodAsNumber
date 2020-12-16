@@ -94,3 +94,11 @@ There are (thankfully) many unprocessed products, like fruit and vegetables. I d
 #### Why not use other technology like image-recognition?
 
 The reason i stuck to QR-Codes is that they are in this case self-contained pieces of information. That means everything i need is the QR-Code and a small decoder that creates a nutritional chart from it. Image Recognition is constantly evolving and there would probably be a need to transfer the image to a server for analysis. I want the whole system to work offline. Then there are NFC tags which work, but im sure that printing on a surface is easier and more environmentally friendly than producing a plastic chip to glue somewhere.
+
+#### What if there is no NuCo on my food ?
+
+A cool benefit of this system being so simple is that everyone could make their own NuCos. It would be easy to make a NuCo Generator App or Website that lets you put in all information and get a high resolution QR Code back to put on your food. 
+
+Let's make some Mac and Cheese.
+
+The basic ingredients are macaroni, cheese and milk. Since all of those have packaging, just scan the NuCo, weigh and prepare the meal. Its a family portion, so you get a total of 3000 calories. Now you either have the choice to divide your food by, lets say, 3 and know its 1000kcal each. Or you could save that info in a NuCo supported system (NuCo Scale, Calorie App). You could print out the code and put it on the tupperware you give to your fellow dieting-buddy (if you want to sabotage the dieting efforts by giving them Mac and Cheese). Sure, it would be easy to just note the kcal of the whole meal and then use common sense and some first grade mathematics to figure out how many calories a certain food has but the real benefit of the NuCo here is that it also includes all info about the composition of the food (sugar, vitamins, fat, etc.).
